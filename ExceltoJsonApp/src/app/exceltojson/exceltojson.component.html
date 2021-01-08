@@ -1,0 +1,7 @@
+<p>exceltojson works!</p>
+
+<input id='uploadBtn' type='file' (change)="readExcel($event)" required>
+
+<div>
+    {{ExcelUploadData | json}}
+</div>
